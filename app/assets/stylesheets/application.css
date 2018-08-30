@@ -17,13 +17,19 @@
  @import 'materialize.min.css';
 
  .note{
-   box-shadow: 0px 5px 20px black;
+   box-shadow: 0px 2px 20px black;
    background-color: rgb(255, 247, 177);
    width: 400px;
+   margin: 20px;
  }
 
  .container{
    display: flex;
    justify-content: space-around;
    flex-wrap: wrap;
+ }
+
+ .note-content{
+   padding: 15px;
+   text-align: center;
  }
