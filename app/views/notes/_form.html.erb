@@ -1,13 +1,17 @@
 <div class="container">
   <div class="note">
-    <%= form_for @note do |f| %>
-      <%= f.label :title %>
-      <%= f.text_field :title %>
+    <div class="input-field col s6">
+      <div class="note-content">
+        <%= form_for @note do |f| %>
+          <%= f.label :title %>
+          <%= f.text_field :title %>
 
-      <%= f.label :body %>
-      <%= f.text_area :body %>
+          <%= f.label :body %>
+          <%= f.text_area :body %>
 
-      <%= f.submit %>
-    <% end %>
+          <%= f.submit class: 'btn'%>
+        <% end %>
+      </div>
+    </div>
   </div>
 </div>
